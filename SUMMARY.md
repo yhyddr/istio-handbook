@@ -20,5 +20,7 @@
 
 ## 实践
 
+- [Bookinfo 示例](action/bookinfo-sample.md)
+
 ## 采用
 
