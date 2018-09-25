@@ -4,6 +4,11 @@ BOOK_OUTPUT := _book
 .PHONY: build
 build:
 	gitbook build . $(BOOK_OUTPUT)
+	cp images/apple-touch-icon-precomposed-152.png $(BOOK_OUTPUT)/gitbook/images
+
+.PHONY: lint
+lint:
+	htmlproofer --url-ignore "/localhost/,/172.17.8.101/,/kiali.io/,/condiut.io/,/twitter.com/,/facebook.com/,/medium.com/,/google.com/,/jimmysong.io/" $(BOOK_OUTPUT)
 
 .PHONY: serve
 serve:
@@ -35,6 +40,7 @@ help:
 	@echo "Help for make"
 	@echo "make          - Build the book"
 	@echo "make build    - Build the book"
+	@echo "make lint     - Check the links"
 	@echo "make serve    - Serving the book on localhost:4000"
 	@echo "make install  - Install gitbook and plugins"
 	@echo "make epub     - Build epub book"
