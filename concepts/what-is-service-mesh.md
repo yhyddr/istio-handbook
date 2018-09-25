@@ -28,7 +28,7 @@ Service mesh 又译作 “服务网格”，作为服务间通信的基础设施
 3. 集成到应用程序内部的控制流
 4. 分解到应用程序外部的控制流
 5. 应用程序的中集成服务发现和断路器
-6. 出现了专门用于服务发现和断路器的软件包/库，如 [Twitter 的 Finagle](https://finagle.github.io/) 和 [Facebook  的 Proxygen](https://code.facebook.com/posts/1503205539947302)，这时候还是集成在应用程序内部
+6. 出现了专门用于服务发现和断路器的软件包/库，如 [Twitter 的 Finagle](https://finagle.github.io/) 和 [Facebook  的 Proxygen](https://code.fb.com/networking-traffic/introducing-proxygen-facebook-s-c-http-framework/)，这时候还是集成在应用程序内部
 7. 出现了专门用于服务发现和断路器的开源软件，如 [Netflix OSS](http://netflix.github.io/)、Airbnb 的 [synapse](https://github.com/airbnb/synapse) 和 [nerve](https://github.com/airbnb/nerve)
 8. 最后作为微服务的中间层服务网格出现
 
@@ -64,7 +64,6 @@ Service mesh 又译作 “服务网格”，作为服务间通信的基础设施
 ## 参考
 
 - [WHAT’S A SERVICE MESH? AND WHY DO I NEED ONE? - buoyant.io](https://buoyant.io/2017/04/25/whats-a-service-mesh-and-why-do-i-need-one/)
-- [So what even is a Service Mesh? Hot take on Istio and Istio - redmonk.com](http://redmonk.com/jgovernor/2017/05/31/so-what-even-is-a-service-mesh-hot-take-on-istio-and-Istio)
 - [Istio: A service mesh for AWS ECS - medium.com](https://medium.com/attest-engineering/Istio-a-service-mesh-for-aws-ecs-937f201f847a)
 - [初次了解 Istio - istio.io](https://istio.io/blog/istio-service-mesh-for-microservices.html)
 - [Application Network Functions With ESBs, API Management, and Now.. Service Mesh? - blog.christianposta.com](http://blog.christianposta.com/microservices/application-network-functions-with-esbs-api-management-and-now-service-mesh/)
