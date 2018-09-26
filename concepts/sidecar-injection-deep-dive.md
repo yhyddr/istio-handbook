@@ -381,8 +381,6 @@ Chain OUTPUT (policy ACCEPT 18M packets, 1916M bytes)
 
 图片来自[常见 iptables 使用规则场景整理](https://www.aliang.org/Linux/iptables.html)
 
-
-
 每条链中都可以添加多条规则，规则是按照顺序从前到后执行的。我们来看下规则的表头定义。
 
 - **pkts**：处理过的匹配的报文数量
@@ -409,7 +407,7 @@ Chain OUTPUT (policy ACCEPT 18M packets, 1916M bytes)
 
 Init 容器通过向 iptables nat 表中注入转发规则来劫持流量的，下图显示的是 productpage 服务中的 iptables 流量劫持的详细过程。
 
-![Envoy sidecar 流量劫持 Istio iptables 宋净超 Jimmy Song 服务网格 Service Mesh](https://ws1.sinaimg.cn/large/0069RVTdgy1fv5doj8fuij31kw0ytn7h.jpg)
+![Envoy sidecar 流量劫持流程示意图](../images/envoy-sidecar-traffic-hijack.png)
 
 Init 容器启动时命令行参数中指定了 `REDIRECT` 模式，因此只创建了 NAT 表规则，接下来我们查看下 NAT 表中创建的规则，这是全文中的**重点部分**，前面讲了那么多都是为它做铺垫的。下面是查看 nat 表中的规则，其中链的名字中包含 `ISTIO` 前缀的是由 Init 容器注入的，规则匹配是根据下面显示的顺序来执行的，其中会有多次跳转。
 
