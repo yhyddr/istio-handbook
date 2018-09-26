@@ -8,6 +8,8 @@ Istio 官方推荐使用 Helm 来安装，Istio 中的很多组件都可以选�
 
 ![Istio Helm Chart Cheatsheet(原图来自沈旭光)](../images/istio-chart-cheatsheet.jpg)
 
+上图可以通过 [Google doc](https://docs.google.com/spreadsheets/d/14eXerRWNsCJDUrKWjoQIwwxbB8TnvrbgQQvC0RmWFD4/edit#gid=0) 下载电子表格。
+
 Istio 的安装文件中包括如下几个子 chart。
 
 - ingress
@@ -108,6 +110,8 @@ serviceroles.rbac.istio.io
 CRD 的详细分类和用途如下图所示。
 
 ![Istio CRD Cheatsheet(原图来自沈旭光)](../images/istio-crd-cheatsheet.png)
+
+上图可以通过 [Google doc](https://docs.google.com/spreadsheets/d/14eXerRWNsCJDUrKWjoQIwwxbB8TnvrbgQQvC0RmWFD4/edit#gid=0) 下载电子表格。
 
 ## 参考
 
