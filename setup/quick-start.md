@@ -224,7 +224,7 @@ kubectl -n default port-forward $(kubectl -n default get pod -l app=vistio-web -
 
 如果一切都已经启动并准备就绪，您就可以访问Vistio UI，开始探索服务网格网络，访问[http://localhost:8080](http://localhost:8080/) 您将会看到类似下图的输出。
 
-![vistio 页面](https://github.com/rootsongjc/kubernetes-vagrant-centos-cluster/blob/master/images/vistio-animation.gif)
+![vistio 页面](https://github.com/rootsongjc/kubernetes-vagrant-centos-cluster/raw/master/images/vistio-animation.gif)
 
 更多详细内容请参考[Vistio—使用Netflix的Vizceral可视化Istio service mesh](http://www.servicemesher.com/blog/vistio-visualize-your-istio-mesh-using-netflixs-vizceral/)。
 
