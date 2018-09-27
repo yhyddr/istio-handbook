@@ -13,6 +13,7 @@
 - [Sidecar 模式](concepts/sidecar-pattern.md)
   - [Istio 中的 Sidecar 注入详解](concepts/sidecar-injection-deep-dive.md)
 - [Envoy xDS](concepts/envoy-xds.md)
+- [流量管理](concepts/traffic-management.md)
 
 ## 安装
 
