@@ -71,7 +71,7 @@
             "prefix": "https://jimmysong.io/istio-handbook/"
         },
          "ad": {
-           "contentBottom": "<div>开源项目 <a href=https://github.com/alipay/sofa-mesh>SOFAMesh - 基于 Istio 的大规模服务网格解决方案</a> | <a href=https://github.com/alipay/sofa-mosn>SOFAMosn - Golang 版的高性能 Service Mesh Sidecar 代理</a></div>"
+           "contentBottom": "<div><a href=https://github.com/alipay/sofa-mesh>SOFAMesh - 基于 Istio 的大规模服务网格解决方案</a> | <a href=https://github.com/alipay/sofa-mosn>SOFAMosn - Golang 版的高性能 Service Mesh Sidecar 代理</a></div>"
         }
     }
 }
