@@ -8,7 +8,7 @@ build:
 
 .PHONY: lint
 lint:
-	htmlproofer --url-ignore "/localhost/,/172.17.8.101/,/kiali.io/,/condiut.io/,/twitter.com/,/facebook.com/,/medium.com/,/google.com/,/jimmysong.io/" $(BOOK_OUTPUT)
+	htmlproofer --url-ignore "/localhost/,/172.17.8.101/,/kiali.io/,/condiut.io/,/wikipedia.org/,/twitter.com/,/facebook.com/,/medium.com/,/google.com/,/jimmysong.io/" $(BOOK_OUTPUT)
 
 .PHONY: serve
 serve:
