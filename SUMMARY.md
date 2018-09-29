@@ -20,6 +20,7 @@
   - [EDS（端点发现服务）](concepts/envoy-eds.md)
   - [SDS（秘钥发现服务）](concepts/envoy-sds.md)
 - [流量管理](concepts/traffic-management.md)
+  - [流量管理基础概念](concepts/traffic-management-basic.md)
 
 ## 安装指南
 
