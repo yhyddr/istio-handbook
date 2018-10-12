@@ -28,7 +28,8 @@
         "theme-default",
         "-highlight", "prism", "prism-themes",
         "sitemap-general",
-        "lightbox"
+        "lightbox",
+        "adsense"
     ],
     "pluginsConfig": {
         "theme-default": {
@@ -68,6 +69,13 @@
         },
         "sitemap-general": {
             "prefix": "https://jimmysong.io/istio-handbook/"
+        },
+        "adsense": {
+            "client": "ca-pub-4029167986768912",
+            "slot": "2445941692",
+            "format": "auto",
+            "element": ".page-inner section",
+            "position": "bottom"
         }
     }
 }

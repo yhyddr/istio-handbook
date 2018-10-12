@@ -267,33 +267,26 @@ spec:
     app: istio-ingressgateway
     istio: ingressgateway
   ports:
-    -
-      name: http2 # 将 ingressgateway 的 80 端口映射到节点的 31380 端口以代理 HTTP 请求
+    - name: http2 # 将 ingressgateway 的 80 端口映射到节点的 31380 端口以代理 HTTP 请求
       nodePort: 31380
       port: 80
       targetPort: 80
-    -
-      name: https
+    - name: https
       nodePort: 31390
       port: 443
-    -
-      name: tcp
+    - name: tcp
       nodePort: 31400
       port: 31400
-    -
-      name: tcp-pilot-grpc-tls
+    - name: tcp-pilot-grpc-tls
       port: 15011
       targetPort: 15011
-    -
-      name: tcp-citadel-grpc-tls
+    - name: tcp-citadel-grpc-tls
       port: 8060
       targetPort: 8060
-    -
-      name: http2-prometheus
+    - name: http2-prometheus
       port: 15030
       targetPort: 15030
-    -
-      name: http2-grafana
+    - name: http2-grafana
       port: 15031
       targetPort: 15031
 ```
