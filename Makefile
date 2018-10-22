@@ -4,7 +4,7 @@ BOOK_OUTPUT := _book
 .PHONY: build
 build:
 	gitbook build . $(BOOK_OUTPUT)
-	cp images/apple-touch-icon-precomposed-152.png $(BOOK_OUTPUT)/gitbook/images
+	cp images/* $(BOOK_OUTPUT)/gitbook/images/
 
 .PHONY: lint
 lint:
@@ -13,6 +13,7 @@ lint:
 .PHONY: serve
 serve:
 	gitbook serve . $(BOOK_OUTPUT)
+	cp images/* $(BOOK_OUTPUT)/gitbook/images/
 
 .PHONY: epub
 epub:
