@@ -26,6 +26,7 @@
 
 - [快速开始](setup/quick-start.md)
 - [Istio 安装](setup/istio-installation.md)
+- [可观察性工具 kiali](setup/istio-observability-tool-kiali.md)
 
 ## 实践案例
 
